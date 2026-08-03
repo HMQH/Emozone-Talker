@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cu117
+
+torch==1.13.1+cu117
+torchvision==0.14.1+cu117
+numpy==1.23.5
+pandas==1.5.3
+Pillow==9.5.0
+scipy==1.10.1
+opencv-python==4.8.1.78
+imageio==2.31.6
+imageio-ffmpeg==0.4.9
+tqdm==4.66.1
+plyfile==0.9
+ninja==1.11.1.1

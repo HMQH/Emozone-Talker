@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.idea/
+.vscode/
+
+data/
+output/
+renders/
+*.mp4
+*.wav
+*.npy
+
+# Pretrained models are distributed separately from the source repository.
+weights/**/*.pth
+weights/**/*.ply
+
+submodules/**/build/
+submodules/**/*.so
+submodules/**/*.pyd
