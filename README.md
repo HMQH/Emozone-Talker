@@ -13,8 +13,6 @@ This repository contains the inference code for
 audio with editable facial Action Unit (AU) trajectories to provide local,
 continuous expression control for audio-driven 3D Gaussian talking heads.
 
-**Tingting Chen, Shaojun Wang, Huaye Zhang, Diqiong Jiang, Chenglizhao Chen**  
-China University of Petroleum (East China)
 
 ![Method overview](media/method.png)
 
