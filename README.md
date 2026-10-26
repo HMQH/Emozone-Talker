@@ -15,6 +15,7 @@ continuous expression control for audio-driven 3D Gaussian talking heads.
 
 
 ![Method overview](media/method.png)
+![Method video](media/EmoZone-Talker_Supplementary_Video_20261026_22352127.mp4).
 
 The inference model uses Synergy Zones with Prioritized Attention Bias
 (SZ-PAB) to allocate audio and AU responsibility by facial region, and a
