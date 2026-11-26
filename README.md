@@ -54,10 +54,16 @@ binaries are not included.
 
 ### 2. Pretrained weights
 
-Pretrained models are distributed separately from the source repository. Put
-the downloaded iteration-10,000 snapshots under `weights/`. See
-[weights/README.md](weights/README.md) for the subject list and expected
-directory format.
+Save the [pretrained weights ZIP](https://github.com/HMQH/Emozone-Talker/releases/download/weights-v1/emozone-talker-weights-iter10000.zip)
+(182 MiB) in the repository root, then extract it.
+
+```shell
+unzip emozone-talker-weights-iter10000.zip
+```
+
+The archive contains iteration 10,000 snapshots for 11 subjects. It places
+each snapshot under `weights/<subject>/point_cloud/iteration_10000/`. See the
+[weights guide](weights/README.md) for the subject list and file layout.
 
 ### 3. Processed subject data
 

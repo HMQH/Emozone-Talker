@@ -1,8 +1,8 @@
 # Pretrained weights
 
-Pretrained weights are intentionally not committed to the source repository.
-After downloading the inference-only iteration-10,000 snapshots separately,
-place each identity in the layout expected by `render.py`:
+Download `emozone-talker-weights-iter10000.zip` from the
+[pretrained weights release](https://github.com/HMQH/Emozone-Talker/releases/tag/weights-v1).
+Extract it from the repository root to create the directories expected by `render.py`.
 
 ```text
 weights/<subject>/
@@ -13,13 +13,13 @@ weights/<subject>/
     deformation_accum.pth
 ```
 
-Included subjects:
+## Included subjects
 
 | Dataset | Subjects |
 | --- | --- |
 | Neutral talking-head set | `obama`, `may`, `lieu`, `macron` |
 | MEAD | `M009`, `M019`, `M022`, `W009`, `W015`, `W019`, `W028` |
 
-The release package should contain only the final renderer state. Optimizer
-states, training checkpoints, intermediate iterations, TensorBoard files,
-evaluation renders, and third-party evaluation networks are excluded.
+Rendering also requires the corresponding processed subject data. Follow the
+[data preparation instructions](../README.md#3-processed-subject-data), then
+pass `-m weights/<subject>` and `--iteration 10000` to `render.py`.
